@@ -10,6 +10,7 @@ import SellersInfo from "./pages/SellersInfo";
 import ProductRating from "./pages/ProductRating";
 
 function App() {
+  console.log(process.env);
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
